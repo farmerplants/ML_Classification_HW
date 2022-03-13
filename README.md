@@ -63,10 +63,10 @@
 #### - All three models had the same geo score at 0.99.
 ### Ensemble Learning:
 #### Which model had the best balanced accuracy score?
-#### - 
+#### - The EasyEnsembleClassifier model had the best score at 0.9333, as opposed to the BalancedRandomForestClassifier model with a score of 0.8109.
 #### Which model had the best recall score?
-#### - 
+#### - The EasyEnsembleClassifier model once again had the best average recall score at 0.95, while the BRFC model had an average score of 0.90.
 #### Which model had the best geometric mean score?
-#### - 
+#### - Again, the EasyEnsembleClassifier model had the best score at 0.93, compared to the BRFC model's score of 0.81.
 #### What are the top three features?
-#### - 
+#### - 1 - total_rec_pmcp (0.07549); 2 - total_pymnt (0.06563); 3 - last_pymnt_amt (0.06129)
